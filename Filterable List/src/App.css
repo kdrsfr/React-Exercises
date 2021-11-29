@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: inline-block;
+  background-color: aquamarine;
+}
+form {
+  padding: 25px;
+}
+.list-wrap {
+  width: 100%;
+}
+.list-wrap > ul {
+  margin-top: 25px;
+  list-style: none;
+}
+.list-wrap > ul > h3 {
+  margin-bottom: 10px;
+}
+.list-wrap > ul > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+
+  gap: 40px;
+}
+.list-wrap > ul > ul > li {
+  flex-grow: 1;
+  flex-basis: 0;
+}
