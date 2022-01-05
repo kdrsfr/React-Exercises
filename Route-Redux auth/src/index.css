@@ -1,0 +1,11 @@
+.active{
+    background: lightcoral;
+    color: #fff;
+}
+.dark{
+    background-color: #000;
+    color: white !important;
+}
+.light{
+    background-color: white;
+}
