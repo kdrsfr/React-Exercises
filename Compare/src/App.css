@@ -45,8 +45,36 @@
   height: 100%;
   background-color: #48cfad;
   opacity: 0;
+  cursor: pointer;
 }
 .product-main:hover > .product-overlay{
   transition: 0.5s;
   opacity: 0.7;
+}
+.product-main:hover > .add-product{
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.add-product{
+  top: 50%;
+  left:50%;
+  margin-left: -50px;
+  margin-top: -75px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: 2px solid white;
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  opacity: 0;
+  line-height: 45px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.add-product:hover{
+  transition: 0.5s;
+  background-color: white;
+  color: #48cfad;
 }
